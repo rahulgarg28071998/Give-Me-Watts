@@ -15,4 +15,15 @@ We had developed an AR app which augments the whole EV on your ground plane. We 
 # How I built it
 Using voiceflow , we integrated hardware to voiceflow using rfid tagging and create the assistant for user interaction of charging station. the system has full automation , for routing to nearest , fastest and approachable charging sation with some priority based ,urgerncy based system. https://creator.voiceflow.com/demo/3237451435481279
 
-The technology:RFID,DJango, Heroku
+# The technology:RFID,DJango, Heroku
+Built With : 
+ar
+blockchain
+c#
+heroku
+iot
+javascript
+maps
+rfidtagging
+untiny
+voiceflow
