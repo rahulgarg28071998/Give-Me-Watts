@@ -1,3 +1,3 @@
 # Lazy-Developers
 
-An intelligent
+An intelligent solution for  Electrical car
