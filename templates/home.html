@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load staticfiles %}
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Smart Vehicle Management System</title>
+    <link rel="icon" href="https://img.icons8.com/plasticine/2x/car.png" />
+    <link href="{% static 'css/main.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/loader.css' %}" rel="stylesheet" />
+    <link href="https://cdn.rawgit.com/t4t5/sweetalert/v0.2.0/lib/sweet-alert.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+    
+    <div style="background-color: #f9f2ff;">
+        <div class="container">
+            <div class="heading">
+                Smart Vehicle Management System
+            </div>
+        </div>
+    </div>
+    <div style="height: 1em;"></div>
+    
+    <marquee direction="right" speed="10" scrollamount="20">
+        <img src="https://cdn.clipart.email/6c78fee643de6c9cf024e6407fae1e35_animation-car-blue-gif-shared-by-kigajind-on-gifer_1080-720.gif" width="150px" />
+    </marquee>
+    <div class="container">
+        <div style="padding: 2em 0;font-size: 1.5em;text-align: center;">
+            Please Scan Your RF-ID to continue
+        </div>
+    </div>
+    
+    <div class="loader">
+        <svg class="circular" viewBox="25 25 50 50">
+          <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+        </svg>
+    </div>
+    <div class="container">
+        <div style="padding: 1.5em 0 0 0;font-size: 1.5em;text-align: center;">
+            Wait for the response
+        </div>
+    </div>
+
+    <div style="position: absolute;top: -100%;left: -100%;opacity: 0;" id="speakText"></div>
+
+    <script src="{% static 'js/main.js' %}"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=TD5IY3ZX"></script>
+</body>
+</html>
